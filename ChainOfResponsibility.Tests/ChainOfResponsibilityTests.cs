@@ -19,7 +19,7 @@ namespace ChainOfResponsibility.Tests
         [InlineData(13)]
         [InlineData(14)]
         [InlineData(15)]
-        public void VerifyDiscountGrantedForManagerResposibility(double value)
+        public void VerifyDiscountGrantedByManagerResposibility(double value)
         {
             //Arrange
             var salesman = new SalesMan();
